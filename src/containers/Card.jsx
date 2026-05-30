@@ -7,7 +7,7 @@ class Card extends React.Component {
 
   render() {
     const { title, description, image } = this.props;
-    const image_path = `/creations/${image}`;
+    const image_path = `./creations/${image}`;
     return (
       <>
         <div
