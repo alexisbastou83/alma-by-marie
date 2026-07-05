@@ -10,16 +10,18 @@ class CardList extends React.Component {
       position: {
         x: 0,
         y: 0,
-      }
+      },
+      displayed_card: -1,
     }
   }
 
-  setShow = (event, bool) => this.setState({
+  setShow = (event, bool, cardIndex) => this.setState({
     show: bool,
-      position: {
-        x: event.clientX,
-        y: event.clientY,
-      }
+    position: {
+      x: event.clientX,
+      y: event.clientY,
+    },
+    displayed_card: cardIndex+1,
   })
 
   render() {
@@ -29,7 +31,8 @@ class CardList extends React.Component {
         title={item.title}
         description={item.description}
         image={item.image}
-        setShow={this.setShow}
+        additional_images={item.additional_images}
+        setShow={(event, bool) => this.setShow(event, bool, i)}
       />
     });
     return (
@@ -45,7 +48,7 @@ class CardList extends React.Component {
               zIndex: 9999,
             }}
           >
-            <AttachCardList setShow={this.setShow}/>
+            <AttachCardList setShow={this.setShow} n={this.state.displayed_card} images={this.props.data[this.state.displayed_card-1].additional_images}/>
           </div>
         )
         }

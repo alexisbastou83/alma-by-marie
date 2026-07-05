@@ -5,9 +5,10 @@ class AttachCard extends React.Component {
     super(props);
   }
   render() {
+    // The path to the picture should be given as a source here
     return (
       <>
-          <img alt='photo' src='./creations/creations1.jpeg' />
+          <img alt='photo' src={`./creations/${this.props.image}`}/>
       </>
     );
   }
