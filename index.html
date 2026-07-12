@@ -147,19 +147,20 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="#">
+							<form method="post" action="https://api.web3forms.com/submit">
+  								<input type="hidden" name="access_key" value="a3ecbd46-dfd1-4a21-aeee-691ceca4d355">
 								<div class="row">
 									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Nom" />
+										<input type="text" name="name" id="name" placeholder="Nom" required/>
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+										<input type="text" name="email" id="email" placeholder="Email" required/>
 									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Sujet" />
+										<input type="text" name="subject" id="subject" placeholder="Sujet" required/>
 									</div>
 									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
+										<textarea name="message" id="message" placeholder="Message" required></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
