@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "alma-by-marie",
     "ignore": [
       "firebase.json",
       "**/.*",
