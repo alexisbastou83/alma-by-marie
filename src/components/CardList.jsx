@@ -28,6 +28,7 @@ class CardList extends React.Component {
     const cardComponents = this.props.data.map((item, i) => {
       return <Card
         key={i}
+        n={i+1}
         title={item.title}
         description={item.description}
         image={item.image}
@@ -38,20 +39,6 @@ class CardList extends React.Component {
     return (
       <>
         {cardComponents}
-        {this.state.show && (
-          <div
-            className='bg-white-90 border-box dib br3 pa2 bw2 shadow-5 mw5'
-            style={{
-              position: 'fixed',
-              left: this.state.position.x - 15,
-              top: this.state.position.y - 15,
-              zIndex: 9999,
-            }}
-          >
-            <AttachCardList setShow={this.setShow} n={this.state.displayed_card} images={this.props.data[this.state.displayed_card-1].additional_images}/>
-          </div>
-        )
-        }
       </>
     );
   }

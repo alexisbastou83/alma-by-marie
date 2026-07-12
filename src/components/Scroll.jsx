@@ -7,7 +7,7 @@ class Scroll extends React.Component {
 
 	render() {
 		return (
-			<div style={{overflowY: 'scroll', border: '1px solid black', height: '400px'}}>
+			<div style={{display: 'flex', overflowX: 'scroll', border: '1px solid black', height: '300px', margin: '0px 0px 20px 0px'}}>
 				{this.props.children}
 			</div>
 		);
