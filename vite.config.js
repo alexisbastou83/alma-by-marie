@@ -3,12 +3,22 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/",
-  // base: "/alma-by-marie/",
+  // For Netlify
+  // base: "/",
+  // For Github Pages
+  base: "/alma-by-marie/",
   plugins: [react()],
   css: {
     lightningcss: {
       errorRecovery: true
+    }
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        submitted: resolve(__dirname, 'submitted.html')
+      }
     }
   }
 })
