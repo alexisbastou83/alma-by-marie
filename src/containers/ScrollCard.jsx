@@ -17,6 +17,7 @@ class ScrollCard extends React.Component {
         WebkitOverflowScrolling: 'touch',
         height: '300px',
         aspectRatio: '1 / 1',
+        margin: '0px 0px 32px 0px'
       }}>
         {
           this.props.images.map((image, index) => (

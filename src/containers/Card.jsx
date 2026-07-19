@@ -15,7 +15,7 @@ class Card extends React.Component {
           style={{ maxWidth: "332px" }}
         >
           <ScrollCard title={title} images={images}/>
-          <h2>{title.slice(8)}</h2>
+          <h2 style={{margin: '0px 0px 24px 0px'}}>{title.slice(8)}</h2>
           <p>{description}</p>
         </div>
       </>

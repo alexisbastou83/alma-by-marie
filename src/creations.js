@@ -49,7 +49,7 @@ export const creations = [
   },
   {
     title: "Carte 4 Sacs",
-    description: "Les sacs de plage sont ronds ou rectangulaires. Une matière épaisse ou rigide compose l'extérieur. Sur l'intérieur, le tissu est moins épais mais doublé pour rigidifier l'ensemble et le consolider.  Une poche extérieure et/ou intérieure est ajoutée. Un mousqueton permettant d'accrocher les clés est cousu sur un côté à l'intérieur. Les anses sont réalisées dans la matière du sac . Mais il est possible de les réaliser avec d'autres matière (cordes, lanières en cuir par exemple). Les sacs à main sont plus petits et confectionnés dans diverses matières selon l'aspect souhaité (jean, pilou, matière “set de table”, ouate en garniture …). Les fermetures sont en pression magnétique (ou fermeture éclair). Les anses sont également taillées dans la matière du sac mais peuvent être insérées dans d'autres matières (plastique, chaînes, cuir)…",
+    description: "Les sacs sont confectionnés dans une matière rigide sur l'extérieur. L'intérieur est en tissu moins épais mais doublé pour consolider l'ensemble. Une poche extérieure et/ou intérieure est ajoutée et un mousqueton permettant d'accrocher les clés est cousu sur un côté à l'intérieur. Les anses sont réalisées dans la matière du sac. Les sacs à main sont confectionnés dans diverses matières selon l'aspect souhaité (jean, pilou, matière “set de table”, ouate en garniture …).",
     images: [
       "1 SAC FOND MARIN 1.jpg",
       "2 SAC FOND MARIN 2.jpg",
