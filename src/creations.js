@@ -81,7 +81,7 @@ export const creations = [
   },
   {
     title: "Carte 5 Vêtements",
-    description: "X",
+    description: "Vêtements simples et customisation… une seconde vie en utilisant des vêtements inutilisés ou abîmés… Le recyclage 👍😍",
     images: [
       "1 BOB 1.jpg",
       "2 BOB 3.jpg",
@@ -106,7 +106,7 @@ export const creations = [
   },
   {
     title: "Carte 7 Maison",
-    description: "X",
+    description: "Articles divers pour la maison, comme des coussins, rideaux, housses,...",
     images: [
       "1 COUSSIN MICKEY 1.jpg",
       "2 COUSSIN MICKEY 2.jpg",
