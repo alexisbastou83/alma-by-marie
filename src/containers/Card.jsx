@@ -7,15 +7,15 @@ class Card extends React.Component {
   }
 
   render() {
-    const { n, title, description, image, additional_images } = this.props;
-    const image_path = `./creations/${image}`;
+    const { title, description, images } = this.props;
     return (
       <>
         <div
-          className='bg-white-70 border-box dib br3 pa3 ma2 bw2 shadow-5 mw5'
+          className='bg-white-70 border-box dib br3 pa3 ma2 bw2 shadow-5'
+          style={{ maxWidth: "332px" }}
         >
-          <ScrollCard n={n} main_image={image} additional_images={additional_images}/>
-          <h2>{title}</h2>
+          <ScrollCard title={title} images={images}/>
+          <h2>{title.slice(8)}</h2>
           <p>{description}</p>
         </div>
       </>

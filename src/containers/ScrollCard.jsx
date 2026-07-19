@@ -7,26 +7,20 @@ class ScrollCard extends React.Component {
     super(props);
   }
   render() {
-    const {n, main_image, additional_images } = this.props;
+    // const {n, main_image, additional_images } = this.props;
+    const {title, images } = this.props;
     return (
       <div style={{
         display: 'flex',
         overflowX: 'auto',
         scrollSnapType: 'x mandatory',
         WebkitOverflowScrolling: 'touch',
-        width: '100%',
+        height: '300px',
         aspectRatio: '1 / 1',
       }}>
-        <img alt='photo' src={`./creations/${main_image}`} style={{
-          width: '100%',
-          height: '100%',
-          flexShrink: '0',
-          scrollSnapAlign: 'start',
-          objectFit: 'cover',
-        }}/>
         {
-          this.props.additional_images.map((image, index) => (
-            <img alt='photo' src={`./creations/card${n}/${image}`} style={{
+          this.props.images.map((image, index) => (
+            <img alt='photo' src={`./creations/${title}/${image}`} style={{
               width: '100%',
               height: '100%',
               flexShrink: '0',

@@ -31,8 +31,7 @@ class CardList extends React.Component {
         n={i+1}
         title={item.title}
         description={item.description}
-        image={item.image}
-        additional_images={item.additional_images}
+        images={item.images}
         setShow={(event, bool) => this.setShow(event, bool, i)}
       />
     });
