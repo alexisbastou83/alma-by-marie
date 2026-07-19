@@ -45,6 +45,7 @@ export const creations = [
       "2 ETUI A CLES ROSE 1.jpg",
       "3 ETUI A CLES JEAN 1.jpg",
       "4 ETUI A CLES JEAN 2.jpg",
+      "4 ETUI A CLES JEAN 3.jpg",
     ]
   },
   {
