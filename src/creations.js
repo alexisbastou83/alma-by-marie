@@ -1,6 +1,6 @@
 export const creations = [
   {
-    title: "Carte 1 Etuis à lunettes",
+    title: "Etuis à lunettes",
     description: "Etuis à lunettes garnis de ouate qui crée un nid moelleux et épais pour accueillir les lunettes. Sur l'intérieur, une poche facile d'accès contient une lingette pour le nettoyage des verres.",
     images: [
       "1 ETUIS TEL 1.jpg",
@@ -21,7 +21,7 @@ export const creations = [
     ]
   },
   {
-    title: "Carte 2 Pochettes",
+    title: "Pochettes",
     description: "Pochettes créées dans divers matériaux. Tissu extérieur assez épais ou à base de ”set de table” pour le côté rigide. A l'intérieur une matière plus souple peut être utilisée. Une poche peut être ajoutée sur l'intérieur et/ou l'extérieur… La fermeture est faite avec une fermeture éclair.",
     images: [
       "1 POCHETTE COCCINNELLE 1.jpg",
@@ -38,7 +38,7 @@ export const creations = [
     ]
   },
   {
-    title: "Carte 3 Pochettes à clés",
+    title: "Pochettes à clés",
     description: "Pochette pour les clés. Les clés sont contenues dans leur étui grâce à un cordon coulissant par le haut de la pochette. Celui-ci est maintenu par une fermeture en pression sur l'extérieur. Les clés sont protégées et n'abîment rien au fond du sac.",
     images: [
       "1 ETUI A CLES ROSE 2.jpg",
@@ -49,7 +49,7 @@ export const creations = [
     ]
   },
   {
-    title: "Carte 4 Sacs",
+    title: "Sacs",
     description: "Les sacs sont confectionnés dans une matière rigide sur l'extérieur. L'intérieur est en tissu moins épais mais doublé pour consolider l'ensemble. Une poche extérieure et/ou intérieure est ajoutée et un mousqueton permettant d'accrocher les clés est cousu sur un côté à l'intérieur. Les anses sont réalisées dans la matière du sac. Les sacs à main sont confectionnés dans diverses matières selon l'aspect souhaité (jean, pilou, matière “set de table”, ouate en garniture …).",
     images: [
       "1 SAC FOND MARIN 1.jpg",
@@ -81,7 +81,7 @@ export const creations = [
     ]
   },
   {
-    title: "Carte 5 Vêtements",
+    title: "Vêtements",
     description: "Vêtements simples et customisation… une seconde vie en utilisant des vêtements inutilisés ou abîmés… Le recyclage 👍😍",
     images: [
       "1 BOB 1.jpg",
@@ -96,7 +96,7 @@ export const creations = [
     ]
   },
   {
-    title: "Carte 6 Pochette à livre",
+    title: "Pochette à livre",
     description: "Pochette pour couvrir un livre. Une protection en tissu extérieur et intérieur avec un rabat de chaque côté afin de maintenir la couverture du livre. La fermeture se fait également par un rabat maintenu par une pression sur le devant de la pochette. Un marque page est inséré su le haut de la couverture.",
     images: [
       "1 POCHETTE LIVRE COQUELICOTS 1.jpg",
@@ -106,7 +106,7 @@ export const creations = [
     ]
   },
   {
-    title: "Carte 7 Maison",
+    title: "Maison",
     description: "Articles divers pour la maison, comme des coussins, rideaux, housses,...",
     images: [
       "1 COUSSIN MICKEY 1.jpg",
